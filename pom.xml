@@ -276,8 +276,6 @@
     </pluginRepository>
   </pluginRepositories>
 
-
-
   <distributionManagement>
     <repository>
       <id>releases</id>
@@ -292,4 +290,5 @@
       <layout>default</layout>
     </snapshotRepository>
   </distributionManagement>
+    
 </project>
