@@ -234,7 +234,12 @@
   </profiles>
 
   <repositories>
-    <repository>
+      <repository>
+      <id>public</id>
+      <name>Public repositories</name>
+      <url>http://localhost:8081/nexus/content/groups/public/</url>
+    </repository>
+      <repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
       <url>http://localhost:8081/nexus/content/repositories/spring-milestone/</url>
